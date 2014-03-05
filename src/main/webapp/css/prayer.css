@@ -1,0 +1,192 @@
+/* 
+  Copyright 2013 Pathgate Institute
+*/
+
+body {
+	background-color: white;
+	padding: 0px;
+	margin: 0px;
+	position: relative;
+}
+
+html, body {
+	height: 100%;
+}
+
+.qplayer_container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -166px;
+  width: 800px;
+  height: 332px;
+  margin-left: -400px;
+  border: none;
+  background-color: white;
+  background-image: url('../images/prayer-background.jpg');
+  background-repeat: no-repeat;
+}
+
+div.jp-interface {
+	background-color: #c5c5c5;
+  	opacity: 0.8;
+  	height: 33px;
+}
+
+ul.jp-toggles, ul.jp-controls {
+	margin: 0px;
+	padding: 0px;
+}
+
+ul.jp-controls {
+	margin-left: 10px;
+}
+
+.jp-progress {
+	height: 8px;
+}
+
+.jp-seek-bar {
+	background-color: #eee;
+}
+
+.jp-play-bar {
+	background-color: #a5a5a5;
+}
+
+a.jp-play {
+	display: block;
+	width: 50px;
+	height: 25px;
+	background-image: url('../images/pg_player_play.png');
+	background-repeat: no-repeat;
+}
+
+a.jp-pause {
+	display: block;
+	position: relative;	
+	left: -4px;
+	width: 50px;
+	height: 25px;
+	background-image: url('../images/pg_player_pause.png');
+	background-repeat: no-repeat;
+}
+
+a.jp-mute {
+	display: block;
+	position: relative;	
+	width: 50px;
+	height: 25px;
+	background-image: url('../images/pg_player_sound_on.png');
+	background-repeat: no-repeat;
+}
+
+a.jp-unmute {
+	display: block;
+	position: relative;	
+	left: -4px;
+	width: 50px;
+	height: 25px;
+	background-image: url('../images/pg_player_sound_off.png');
+	background-repeat: no-repeat;
+}
+
+a.jp-repeat {
+	display: block;
+	position: relative;	
+	/*left: -4px;*/
+	width: 50px;
+	height: 25px;
+	background-image: url('../images/pg_player_repeat_off.png');
+	background-repeat: no-repeat;
+}
+
+a.jp-repeat-off {
+	display: block;
+	position: relative;	
+	left: -4px;
+	width: 50px;
+	height: 25px;
+	background-image: url('../images/pg_player_repeat_on.png');
+	background-repeat: no-repeat;
+}
+
+a.qp-tibetan {
+	display: block;
+	position: relative;	
+	/*left: -4px;*/
+	width: 50px;
+	height: 25px;
+	background-image: url('../images/pg_player_tibetan_off.png');
+	background-repeat: no-repeat;
+}
+
+a.qp-tibetan-off {
+	display: block;
+	position: relative;	
+	left: -4px;
+	width: 50px;
+	height: 25px;
+	background-image: url('../images/pg_player_tibetan_on.png');
+	background-repeat: no-repeat;
+}
+
+a.qp-phonetic {
+	display: block;
+	position: relative;	
+	/*left: -4px;*/
+	width: 50px;
+	height: 25px;
+	background-image: url('../images/pg_player_phonetic_off.png');
+	background-repeat: no-repeat;
+}
+
+a.qp-phonetic-off {
+	display: block;
+	position: relative;	
+	left: -4px;
+	width: 50px;
+	height: 25px;
+	background-image: url('../images/pg_player_phonetic_on.png');
+	background-repeat: no-repeat;
+}
+
+.jp-current-time {
+	padding-top: 5px;
+	color: #555;
+}
+
+.cue_lines {
+	position: absolute;
+	top: 47px;
+	left: 80px;
+	height: 238px;
+	width: 641px;
+}
+
+.cue_line {
+	height: 60px;
+	font-size: 25px;
+}
+
+.cue_line.tibetan,
+.cue_line.phonetic {
+  font-weight: bold;
+}
+.cue_line.english {
+  font-family: "Arial";
+}
+
+/* himalaya  */
+.tibetan {
+  font-family: "himalaya";
+  font-size: 40px;
+}
+
+.cue_line.tibetan.hidden {
+  height: 0px;
+}
+
+.cue_line.phonetic.hidden {
+  height: 0px;
+}
